@@ -8,4 +8,6 @@ int main(){
     printf("Name: %s\n", name);
     
     reverse_order(name);
+
+    letter_count(name);
 }

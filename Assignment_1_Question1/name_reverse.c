@@ -5,5 +5,8 @@
 void reverse_order(char *name){
     char first[50];
     char last[50];
-    printf("Reversed Name: %s %s\n", last, first);
+
+    if (sscanf(name, "%s %s", first, last) == 2){
+        printf("Reversed Name: %s %s\n", last, first);
+    }
 }
